@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LXNavigationAnimationTransition : NSObject<UIViewControllerAnimatedTransitioning>
+typedef NS_ENUM(NSInteger,LXNavigationAnimationTransitionType) {
+    LXNavigationAnimationTransitionTypePush,
+    LXNavigationAnimationTransitionTypePop
+};
 
+@interface LXNavigationAnimationTransition : NSObject<UIViewControllerAnimatedTransitioning>
++ (instancetype)animationTransitionWithNavigationType:(LXNavigationAnimationTransitionType)type;
+- (instancetype)initWithNavigationType:(LXNavigationAnimationTransitionType)type;
+- (instancetype)init NS_UNAVAILABLE;
 @end

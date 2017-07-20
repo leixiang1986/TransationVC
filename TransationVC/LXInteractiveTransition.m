@@ -26,6 +26,7 @@
 - (instancetype)initWithTransitionType:(LXInteractiveTransitionType)type gestureDirection:(LXInteractiveTransitionGestureDirection)direction {
     self = [super init];
     if (self) {
+        _completePercent = 0.65;
         _direction = direction;
         _type = type;
     }
@@ -67,6 +68,7 @@
     }
 
     percent = percent > 1 ? 1:percent;
+//    NSLog(@"滑动百分比:%f",percent);
     CGPoint velocity = [gesture velocityInView:gesture.view];
 //    NSLog(@"point:%@",NSStringFromCGPoint(velocity));
     switch (gesture.state) {
@@ -76,7 +78,7 @@
             break;
 
         case UIGestureRecognizerStateChanged:
-//            NSLog(@"完成的百分比:%f",percent);
+//            NSLog(@"%f完成的百分比:%f",_completePercent,percent);
             [self updateInteractiveTransition:percent];
             break;
 
@@ -84,12 +86,11 @@
             self.interative = NO;
             [self cancelInteractiveTransition];
             NSLog(@"UIGestureRecognizerStateCancelled");
-
             break;
 
         case UIGestureRecognizerStateEnded:
             self.interative = NO;
-            if (percent > 0.65 || (percent > 0.4 && LXInteractiveTransitionGestureDirectionUp == _direction)) {
+            if (percent > _completePercent) {
                 [self finishInteractiveTransition];
                 NSLog(@"百分比结束");
             }

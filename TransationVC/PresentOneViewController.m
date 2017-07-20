@@ -25,6 +25,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     _interactivePresent = [LXInteractiveTransition interactiveTransitionWithTransitionType:(LXInteractiveTransitionTypePresent) gestureDirection:(LXInteractiveTransitionGestureDirectionUp)];
+    _interactivePresent.completePercent = 0.15;
     __weak typeof(self)weakSelf = self;
     //设置手势present的方法
     _interactivePresent.presentConfig = ^{

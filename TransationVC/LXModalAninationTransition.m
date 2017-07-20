@@ -81,6 +81,9 @@
                 [tempView removeFromSuperview];
             }
         }];
+
+
+        
     }
 }
 
@@ -92,7 +95,7 @@
  */
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
     UIViewController *toVC = [transitionContext viewControllerForKey:( UITransitionContextToViewControllerKey)];
-    return toVC.isBeingPresented ? 0.75 : 0.25;
+    return toVC.isBeingPresented ? 0.55 : 0.25;
 }
 
 

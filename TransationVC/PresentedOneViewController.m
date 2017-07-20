@@ -42,6 +42,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _interactiveDismiss = [LXInteractiveTransition interactiveTransitionWithTransitionType:(LXInteractiveTransitionTypeDismiss) gestureDirection:(LXInteractiveTransitionGestureDirectionDown)] ;
+    _interactiveDismiss.completePercent = 0.3;
     [_interactiveDismiss addPanGestureForViewController:self];
     _interactive = YES;
 }

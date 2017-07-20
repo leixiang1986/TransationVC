@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32140611F2057B1001F6407 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D321405F1F2057B1001F6407 /* 14.jpg */; };
+		D32140621F2057B1001F6407 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32140601F2057B1001F6407 /* 15.jpg */; };
+		D32140661F20A326001F6407 /* CircleSpreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32140651F20A326001F6407 /* CircleSpreadViewController.m */; };
+		D32140691F20A33F001F6407 /* CircleSpreadPushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32140681F20A33F001F6407 /* CircleSpreadPushedViewController.m */; };
+		D321406C1F20A379001F6407 /* CircleSpreadAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D321406B1F20A379001F6407 /* CircleSpreadAnimationTransition.m */; };
 		D322E80E1F1754530022EE41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D322E80D1F1754530022EE41 /* main.m */; };
 		D322E8111F1754530022EE41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D322E8101F1754530022EE41 /* AppDelegate.m */; };
 		D322E8141F1754530022EE41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D322E8131F1754530022EE41 /* ViewController.m */; };
@@ -16,7 +21,6 @@
 		D322E8251F1754890022EE41 /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D322E8241F1754890022EE41 /* PresentedViewController.m */; };
 		D322E8281F1775940022EE41 /* UIPanInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D322E8271F1775940022EE41 /* UIPanInteractiveTransition.m */; };
 		D352B9561F1C674400D3BBDD /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D352B9551F1C674400D3BBDD /* PushedViewController.m */; };
-		D352B9591F1C67C100D3BBDD /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D352B9581F1C67C100D3BBDD /* NavigationViewController.m */; };
 		D352B95C1F1C980A00D3BBDD /* LXModalAninationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D352B95B1F1C980A00D3BBDD /* LXModalAninationTransition.m */; };
 		D385F7581F1E1A15000D5EF9 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D385F7571F1E1A15000D5EF9 /* PushViewController.m */; };
 		D385F75B1F1E271C000D5EF9 /* LXNavigationAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D385F75A1F1E271C000D5EF9 /* LXNavigationAnimationTransition.m */; };
@@ -24,9 +28,36 @@
 		D38962D41F1894EA00372B5F /* PresentOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38962D31F1894EA00372B5F /* PresentOneViewController.m */; };
 		D38962D71F18953000372B5F /* PresentedOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38962D61F18953000372B5F /* PresentedOneViewController.m */; };
 		D38962DA1F189A9E00372B5F /* LXInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D38962D91F189A9E00372B5F /* LXInteractiveTransition.m */; };
+		D3FA78001F1F0BD0002B25B0 /* MagicMoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA77FF1F1F0BD0002B25B0 /* MagicMoveController.m */; };
+		D3FA78031F1F0BF1002B25B0 /* MagicPushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA78021F1F0BF1002B25B0 /* MagicPushedViewController.m */; };
+		D3FA78071F1F0CC2002B25B0 /* MagicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA78051F1F0CC2002B25B0 /* MagicCollectionViewCell.m */; };
+		D3FA78081F1F0CC2002B25B0 /* MagicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78061F1F0CC2002B25B0 /* MagicCollectionViewCell.xib */; };
+		D3FA78181F1F2580002B25B0 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA780A1F1F2580002B25B0 /* 0.png */; };
+		D3FA78191F1F2580002B25B0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA780B1F1F2580002B25B0 /* 1.png */; };
+		D3FA781A1F1F2580002B25B0 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA780C1F1F2580002B25B0 /* 10.png */; };
+		D3FA781B1F1F2580002B25B0 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA780D1F1F2580002B25B0 /* 11.png */; };
+		D3FA781C1F1F2580002B25B0 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA780E1F1F2580002B25B0 /* 12.png */; };
+		D3FA781D1F1F2580002B25B0 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA780F1F1F2580002B25B0 /* 13.png */; };
+		D3FA781E1F1F2580002B25B0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78101F1F2580002B25B0 /* 2.png */; };
+		D3FA781F1F1F2580002B25B0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78111F1F2580002B25B0 /* 3.png */; };
+		D3FA78201F1F2580002B25B0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78121F1F2580002B25B0 /* 4.png */; };
+		D3FA78211F1F2580002B25B0 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78131F1F2580002B25B0 /* 5.png */; };
+		D3FA78221F1F2580002B25B0 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78141F1F2580002B25B0 /* 6.png */; };
+		D3FA78231F1F2580002B25B0 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78151F1F2580002B25B0 /* 7.png */; };
+		D3FA78241F1F2580002B25B0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78161F1F2580002B25B0 /* 8.png */; };
+		D3FA78251F1F2580002B25B0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78171F1F2580002B25B0 /* 9.png */; };
+		D3FA78281F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA78271F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D321405F1F2057B1001F6407 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		D32140601F2057B1001F6407 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		D32140641F20A326001F6407 /* CircleSpreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSpreadViewController.h; sourceTree = "<group>"; };
+		D32140651F20A326001F6407 /* CircleSpreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSpreadViewController.m; sourceTree = "<group>"; };
+		D32140671F20A33F001F6407 /* CircleSpreadPushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSpreadPushedViewController.h; sourceTree = "<group>"; };
+		D32140681F20A33F001F6407 /* CircleSpreadPushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSpreadPushedViewController.m; sourceTree = "<group>"; };
+		D321406A1F20A379001F6407 /* CircleSpreadAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSpreadAnimationTransition.h; sourceTree = "<group>"; };
+		D321406B1F20A379001F6407 /* CircleSpreadAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSpreadAnimationTransition.m; sourceTree = "<group>"; };
 		D322E8091F1754530022EE41 /* TransationVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransationVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D322E80D1F1754530022EE41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D322E80F1F1754530022EE41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,8 +74,6 @@
 		D322E8271F1775940022EE41 /* UIPanInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPanInteractiveTransition.m; sourceTree = "<group>"; };
 		D352B9541F1C674400D3BBDD /* PushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
 		D352B9551F1C674400D3BBDD /* PushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
-		D352B9571F1C67C100D3BBDD /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
-		D352B9581F1C67C100D3BBDD /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		D352B95A1F1C980A00D3BBDD /* LXModalAninationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXModalAninationTransition.h; sourceTree = "<group>"; };
 		D352B95B1F1C980A00D3BBDD /* LXModalAninationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXModalAninationTransition.m; sourceTree = "<group>"; };
 		D385F7561F1E1A15000D5EF9 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
@@ -59,6 +88,29 @@
 		D38962D61F18953000372B5F /* PresentedOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentedOneViewController.m; sourceTree = "<group>"; };
 		D38962D81F189A9E00372B5F /* LXInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXInteractiveTransition.h; sourceTree = "<group>"; };
 		D38962D91F189A9E00372B5F /* LXInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXInteractiveTransition.m; sourceTree = "<group>"; };
+		D3FA77FE1F1F0BD0002B25B0 /* MagicMoveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicMoveController.h; sourceTree = "<group>"; };
+		D3FA77FF1F1F0BD0002B25B0 /* MagicMoveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicMoveController.m; sourceTree = "<group>"; };
+		D3FA78011F1F0BF1002B25B0 /* MagicPushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicPushedViewController.h; sourceTree = "<group>"; };
+		D3FA78021F1F0BF1002B25B0 /* MagicPushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicPushedViewController.m; sourceTree = "<group>"; };
+		D3FA78041F1F0CC2002B25B0 /* MagicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicCollectionViewCell.h; sourceTree = "<group>"; };
+		D3FA78051F1F0CC2002B25B0 /* MagicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicCollectionViewCell.m; sourceTree = "<group>"; };
+		D3FA78061F1F0CC2002B25B0 /* MagicCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagicCollectionViewCell.xib; sourceTree = "<group>"; };
+		D3FA780A1F1F2580002B25B0 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		D3FA780B1F1F2580002B25B0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D3FA780C1F1F2580002B25B0 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		D3FA780D1F1F2580002B25B0 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		D3FA780E1F1F2580002B25B0 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		D3FA780F1F1F2580002B25B0 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		D3FA78101F1F2580002B25B0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D3FA78111F1F2580002B25B0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D3FA78121F1F2580002B25B0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D3FA78131F1F2580002B25B0 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		D3FA78141F1F2580002B25B0 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		D3FA78151F1F2580002B25B0 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		D3FA78161F1F2580002B25B0 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		D3FA78171F1F2580002B25B0 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		D3FA78261F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovePopRestoreAnimationTransition.h; sourceTree = "<group>"; };
+		D3FA78271F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovePopRestoreAnimationTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +124,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32140631F20A2F6001F6407 /* CircleSpread */ = {
+			isa = PBXGroup;
+			children = (
+				D32140641F20A326001F6407 /* CircleSpreadViewController.h */,
+				D32140651F20A326001F6407 /* CircleSpreadViewController.m */,
+				D32140671F20A33F001F6407 /* CircleSpreadPushedViewController.h */,
+				D32140681F20A33F001F6407 /* CircleSpreadPushedViewController.m */,
+				D321406A1F20A379001F6407 /* CircleSpreadAnimationTransition.h */,
+				D321406B1F20A379001F6407 /* CircleSpreadAnimationTransition.m */,
+			);
+			name = CircleSpread;
+			sourceTree = "<group>";
+		};
 		D322E8001F1754530022EE41 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +156,9 @@
 		D322E80B1F1754530022EE41 /* TransationVC */ = {
 			isa = PBXGroup;
 			children = (
+				D32140631F20A2F6001F6407 /* CircleSpread */,
+				D3FA78091F1F2580002B25B0 /* images */,
+				D3FA77FD1F1F0B38002B25B0 /* MagicMovePush */,
 				D352B9531F1C670F00D3BBDD /* CoverPush */,
 				D322E80F1F1754530022EE41 /* AppDelegate.h */,
 				D322E8101F1754530022EE41 /* AppDelegate.m */,
@@ -127,8 +195,6 @@
 			children = (
 				D352B9541F1C674400D3BBDD /* PushedViewController.h */,
 				D352B9551F1C674400D3BBDD /* PushedViewController.m */,
-				D352B9571F1C67C100D3BBDD /* NavigationViewController.h */,
-				D352B9581F1C67C100D3BBDD /* NavigationViewController.m */,
 				D385F7561F1E1A15000D5EF9 /* PushViewController.h */,
 				D385F7571F1E1A15000D5EF9 /* PushViewController.m */,
 				D385F7591F1E271C000D5EF9 /* LXNavigationAnimationTransition.h */,
@@ -148,6 +214,45 @@
 				D38962D61F18953000372B5F /* PresentedOneViewController.m */,
 			);
 			name = PresentOneController;
+			sourceTree = "<group>";
+		};
+		D3FA77FD1F1F0B38002B25B0 /* MagicMovePush */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA77FE1F1F0BD0002B25B0 /* MagicMoveController.h */,
+				D3FA77FF1F1F0BD0002B25B0 /* MagicMoveController.m */,
+				D3FA78011F1F0BF1002B25B0 /* MagicPushedViewController.h */,
+				D3FA78021F1F0BF1002B25B0 /* MagicPushedViewController.m */,
+				D3FA78041F1F0CC2002B25B0 /* MagicCollectionViewCell.h */,
+				D3FA78051F1F0CC2002B25B0 /* MagicCollectionViewCell.m */,
+				D3FA78061F1F0CC2002B25B0 /* MagicCollectionViewCell.xib */,
+				D3FA78261F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.h */,
+				D3FA78271F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m */,
+			);
+			name = MagicMovePush;
+			sourceTree = "<group>";
+		};
+		D3FA78091F1F2580002B25B0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D321405F1F2057B1001F6407 /* 14.jpg */,
+				D32140601F2057B1001F6407 /* 15.jpg */,
+				D3FA780A1F1F2580002B25B0 /* 0.png */,
+				D3FA780B1F1F2580002B25B0 /* 1.png */,
+				D3FA780C1F1F2580002B25B0 /* 10.png */,
+				D3FA780D1F1F2580002B25B0 /* 11.png */,
+				D3FA780E1F1F2580002B25B0 /* 12.png */,
+				D3FA780F1F1F2580002B25B0 /* 13.png */,
+				D3FA78101F1F2580002B25B0 /* 2.png */,
+				D3FA78111F1F2580002B25B0 /* 3.png */,
+				D3FA78121F1F2580002B25B0 /* 4.png */,
+				D3FA78131F1F2580002B25B0 /* 5.png */,
+				D3FA78141F1F2580002B25B0 /* 6.png */,
+				D3FA78151F1F2580002B25B0 /* 7.png */,
+				D3FA78161F1F2580002B25B0 /* 8.png */,
+				D3FA78171F1F2580002B25B0 /* 9.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +314,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FA781E1F1F2580002B25B0 /* 2.png in Resources */,
+				D3FA78081F1F0CC2002B25B0 /* MagicCollectionViewCell.xib in Resources */,
+				D3FA781A1F1F2580002B25B0 /* 10.png in Resources */,
+				D3FA78251F1F2580002B25B0 /* 9.png in Resources */,
+				D3FA78201F1F2580002B25B0 /* 4.png in Resources */,
+				D3FA781F1F1F2580002B25B0 /* 3.png in Resources */,
+				D3FA78181F1F2580002B25B0 /* 0.png in Resources */,
+				D3FA781C1F1F2580002B25B0 /* 12.png in Resources */,
+				D3FA781B1F1F2580002B25B0 /* 11.png in Resources */,
+				D3FA78241F1F2580002B25B0 /* 8.png in Resources */,
+				D3FA781D1F1F2580002B25B0 /* 13.png in Resources */,
+				D3FA78221F1F2580002B25B0 /* 6.png in Resources */,
 				D322E81C1F1754530022EE41 /* LaunchScreen.storyboard in Resources */,
+				D3FA78191F1F2580002B25B0 /* 1.png in Resources */,
+				D3FA78211F1F2580002B25B0 /* 5.png in Resources */,
+				D32140621F2057B1001F6407 /* 15.jpg in Resources */,
+				D32140611F2057B1001F6407 /* 14.jpg in Resources */,
 				D322E8191F1754530022EE41 /* Assets.xcassets in Resources */,
 				D322E8171F1754530022EE41 /* Main.storyboard in Resources */,
+				D3FA78231F1F2580002B25B0 /* 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,15 +349,21 @@
 				D38962D71F18953000372B5F /* PresentedOneViewController.m in Sources */,
 				D38962D01F185F5D00372B5F /* MainTableViewController.m in Sources */,
 				D38962DA1F189A9E00372B5F /* LXInteractiveTransition.m in Sources */,
+				D32140691F20A33F001F6407 /* CircleSpreadPushedViewController.m in Sources */,
 				D322E8251F1754890022EE41 /* PresentedViewController.m in Sources */,
+				D3FA78281F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m in Sources */,
 				D352B95C1F1C980A00D3BBDD /* LXModalAninationTransition.m in Sources */,
 				D385F7581F1E1A15000D5EF9 /* PushViewController.m in Sources */,
 				D322E8111F1754530022EE41 /* AppDelegate.m in Sources */,
 				D38962D41F1894EA00372B5F /* PresentOneViewController.m in Sources */,
+				D32140661F20A326001F6407 /* CircleSpreadViewController.m in Sources */,
 				D322E80E1F1754530022EE41 /* main.m in Sources */,
+				D3FA78031F1F0BF1002B25B0 /* MagicPushedViewController.m in Sources */,
+				D3FA78071F1F0CC2002B25B0 /* MagicCollectionViewCell.m in Sources */,
+				D321406C1F20A379001F6407 /* CircleSpreadAnimationTransition.m in Sources */,
 				D385F75B1F1E271C000D5EF9 /* LXNavigationAnimationTransition.m in Sources */,
+				D3FA78001F1F0BD0002B25B0 /* MagicMoveController.m in Sources */,
 				D352B9561F1C674400D3BBDD /* PushedViewController.m in Sources */,
-				D352B9591F1C67C100D3BBDD /* NavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

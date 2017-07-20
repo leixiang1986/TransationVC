@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PushedViewController : UIViewController
+@interface PushedViewController : UIViewController<UINavigationControllerDelegate>
 @property (nonatomic, copy) id<UIViewControllerInteractiveTransitioning>(^interactiveBlock)(void);
 @end
