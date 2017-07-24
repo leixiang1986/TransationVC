@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CircleSpreadViewController : UIViewController
-@property (nonatomic, assign) CGPoint btnCenter;
+@property (nonatomic, strong) UIButton *btn;
 @end

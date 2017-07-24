@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CircleSpreadAnimationTransition : NSObject<UIViewControllerAnimatedTransitioning>
-+ (instancetype)animationTransitionWithType:(UINavigationControllerOperation)type;
-- (instancetype)initWithNavigationOperationType:(UINavigationControllerOperation)type;
+@interface CircleSpreadAnimationTransition : NSObject<UIViewControllerAnimatedTransitioning,CAAnimationDelegate>
++ (instancetype)animationTransitionWithType:(UINavigationControllerOperation)type ;
+- (instancetype)initWithNavigationOperationType:(UINavigationControllerOperation)type ;
 - (instancetype)init NS_UNAVAILABLE;
 @end

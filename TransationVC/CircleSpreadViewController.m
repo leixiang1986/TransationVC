@@ -20,10 +20,10 @@
     // Do any additional setup after loading the view.
 
     UIButton *btn = [UIButton buttonWithType:(UIButtonTypeCustom)];
-    CGRect frame = CGRectZero;
-    frame.size = CGSizeMake(40, 40);
-    frame.origin = self.view.center;
-    btn.frame = frame;
+    CGRect btnFrame = CGRectZero;
+    btnFrame.size = CGSizeMake(40, 40);
+    btnFrame.origin = self.view.center;
+    btn.frame = btnFrame;
 
     btn.backgroundColor = [UIColor redColor];
     [btn addTarget:self action:@selector(btnClick:) forControlEvents:(UIControlEventTouchUpInside)];
@@ -33,11 +33,9 @@
     btn.clipsToBounds = YES;
     [btn setTitle:@"点击或\n拖动我" forState:(UIControlStateNormal)];
     [self.view addSubview:btn];
-
+    _btn = btn;
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(moveGesture:)];
     [btn addGestureRecognizer:pan];
-
-    _btnCenter = btn.center;
 
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"back" style:(UIBarButtonItemStylePlain) target:self action:@selector(backClick)];
 }
@@ -48,9 +46,9 @@
 - (void)moveGesture:(UIPanGestureRecognizer *)gesture {
     UIButton *btn = (UIButton *)gesture.view;
     CGPoint point = [gesture translationInView:gesture.view];
-    CGRect frame = CGRectMake(point.x + btn.frame.origin.x, point.y + btn.frame.origin.y, btn.frame.size.width, btn.frame.size.height);
-    btn.frame = frame;
-    _btnCenter = btn.center;
+    CGRect btnFrame = CGRectMake(point.x + btn.frame.origin.x, point.y + btn.frame.origin.y, btn.frame.size.width, btn.frame.size.height);
+    btn.frame = btnFrame;
+
     [gesture setTranslation:CGPointZero inView:gesture.view];
 }
 

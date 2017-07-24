@@ -41,6 +41,7 @@
 - (void)pushAnimation:(id<UIViewControllerContextTransitioning>)transitionContext {
     MagicMoveController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     MagicPushedViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+    NSLog(@"MagicMoveController:%@",fromVC);
     UIView *containerView = [transitionContext containerView];
     MagicCollectionViewCell *cell = (MagicCollectionViewCell *)[fromVC.collectionView cellForItemAtIndexPath:fromVC.selectIndexPath];
     UIView *tempView = [cell.imageView snapshotViewAfterScreenUpdates:NO];

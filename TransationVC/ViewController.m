@@ -133,8 +133,6 @@
     else {
         return 0.75;
     }
-
-
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext {

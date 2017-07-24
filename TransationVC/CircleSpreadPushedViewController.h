@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CircleSpreadPushedViewController : UIViewController<UINavigationControllerDelegate>
-
+@property (nonatomic, assign) CGRect btnFrame;
 @end
