@@ -47,6 +47,12 @@
 		D3FA78241F1F2580002B25B0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78161F1F2580002B25B0 /* 8.png */; };
 		D3FA78251F1F2580002B25B0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FA78171F1F2580002B25B0 /* 9.png */; };
 		D3FA78281F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA78271F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m */; };
+		EE62D91821003372009630DC /* ViewTransicitonController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62D91721003372009630DC /* ViewTransicitonController.m */; };
+		EE62D91B2100342B009630DC /* 2_640@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE62D9192100342B009630DC /* 2_640@2x.png */; };
+		EE62D91C2100342B009630DC /* 1_640@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE62D91A2100342B009630DC /* 1_640@2x.png */; };
+		EE62D92121005D39009630DC /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62D92021005D39009630DC /* SimpleViewController.m */; };
+		EE62D92421005E06009630DC /* SimplePushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62D92321005E06009630DC /* SimplePushedViewController.m */; };
+		EE62D92721006DCB009630DC /* LXSimplePushAnimateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62D92621006DCB009630DC /* LXSimplePushAnimateTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +117,17 @@
 		D3FA78171F1F2580002B25B0 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		D3FA78261F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovePopRestoreAnimationTransition.h; sourceTree = "<group>"; };
 		D3FA78271F1F3A47002B25B0 /* MovePopRestoreAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovePopRestoreAnimationTransition.m; sourceTree = "<group>"; };
+		EE62D91621003372009630DC /* ViewTransicitonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewTransicitonController.h; sourceTree = "<group>"; };
+		EE62D91721003372009630DC /* ViewTransicitonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTransicitonController.m; sourceTree = "<group>"; };
+		EE62D9192100342B009630DC /* 2_640@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2_640@2x.png"; sourceTree = "<group>"; };
+		EE62D91A2100342B009630DC /* 1_640@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_640@2x.png"; sourceTree = "<group>"; };
+		EE62D91D21003942009630DC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		EE62D91F21005D39009630DC /* SimpleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		EE62D92021005D39009630DC /* SimpleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		EE62D92221005E06009630DC /* SimplePushedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePushedViewController.h; sourceTree = "<group>"; };
+		EE62D92321005E06009630DC /* SimplePushedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePushedViewController.m; sourceTree = "<group>"; };
+		EE62D92521006DCB009630DC /* LXSimplePushAnimateTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSimplePushAnimateTransition.h; sourceTree = "<group>"; };
+		EE62D92621006DCB009630DC /* LXSimplePushAnimateTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSimplePushAnimateTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +173,8 @@
 		D322E80B1F1754530022EE41 /* TransationVC */ = {
 			isa = PBXGroup;
 			children = (
+				EE62D91E21005D21009630DC /* SimplePush */,
+				EE62D9152100333D009630DC /* ViewTransition */,
 				D32140631F20A2F6001F6407 /* CircleSpread */,
 				D3FA78091F1F2580002B25B0 /* images */,
 				D3FA77FD1F1F0B38002B25B0 /* MagicMovePush */,
@@ -172,6 +191,7 @@
 				D322E8241F1754890022EE41 /* PresentedViewController.m */,
 				D38962D81F189A9E00372B5F /* LXInteractiveTransition.h */,
 				D38962D91F189A9E00372B5F /* LXInteractiveTransition.m */,
+				EE62D91D21003942009630DC /* Header.h */,
 				D38962D11F1894BC00372B5F /* PresentOneController */,
 				D322E8151F1754530022EE41 /* Main.storyboard */,
 				D322E8181F1754530022EE41 /* Assets.xcassets */,
@@ -235,6 +255,8 @@
 		D3FA78091F1F2580002B25B0 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EE62D91A2100342B009630DC /* 1_640@2x.png */,
+				EE62D9192100342B009630DC /* 2_640@2x.png */,
 				D321405F1F2057B1001F6407 /* 14.jpg */,
 				D32140601F2057B1001F6407 /* 15.jpg */,
 				D3FA780A1F1F2580002B25B0 /* 0.png */,
@@ -253,6 +275,28 @@
 				D3FA78171F1F2580002B25B0 /* 9.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		EE62D9152100333D009630DC /* ViewTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EE62D91621003372009630DC /* ViewTransicitonController.h */,
+				EE62D91721003372009630DC /* ViewTransicitonController.m */,
+			);
+			name = ViewTransition;
+			sourceTree = "<group>";
+		};
+		EE62D91E21005D21009630DC /* SimplePush */ = {
+			isa = PBXGroup;
+			children = (
+				EE62D91F21005D39009630DC /* SimpleViewController.h */,
+				EE62D92021005D39009630DC /* SimpleViewController.m */,
+				EE62D92221005E06009630DC /* SimplePushedViewController.h */,
+				EE62D92321005E06009630DC /* SimplePushedViewController.m */,
+				EE62D92521006DCB009630DC /* LXSimplePushAnimateTransition.h */,
+				EE62D92621006DCB009630DC /* LXSimplePushAnimateTransition.m */,
+			);
+			name = SimplePush;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +330,7 @@
 				TargetAttributes = {
 					D322E8081F1754530022EE41 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = W222R58V26;
+						DevelopmentTeam = 4825PPV66L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -317,11 +361,13 @@
 				D3FA781E1F1F2580002B25B0 /* 2.png in Resources */,
 				D3FA78081F1F0CC2002B25B0 /* MagicCollectionViewCell.xib in Resources */,
 				D3FA781A1F1F2580002B25B0 /* 10.png in Resources */,
+				EE62D91B2100342B009630DC /* 2_640@2x.png in Resources */,
 				D3FA78251F1F2580002B25B0 /* 9.png in Resources */,
 				D3FA78201F1F2580002B25B0 /* 4.png in Resources */,
 				D3FA781F1F1F2580002B25B0 /* 3.png in Resources */,
 				D3FA78181F1F2580002B25B0 /* 0.png in Resources */,
 				D3FA781C1F1F2580002B25B0 /* 12.png in Resources */,
+				EE62D91C2100342B009630DC /* 1_640@2x.png in Resources */,
 				D3FA781B1F1F2580002B25B0 /* 11.png in Resources */,
 				D3FA78241F1F2580002B25B0 /* 8.png in Resources */,
 				D3FA781D1F1F2580002B25B0 /* 13.png in Resources */,
@@ -344,10 +390,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE62D92121005D39009630DC /* SimpleViewController.m in Sources */,
 				D322E8281F1775940022EE41 /* UIPanInteractiveTransition.m in Sources */,
 				D322E8141F1754530022EE41 /* ViewController.m in Sources */,
 				D38962D71F18953000372B5F /* PresentedOneViewController.m in Sources */,
 				D38962D01F185F5D00372B5F /* MainTableViewController.m in Sources */,
+				EE62D92421005E06009630DC /* SimplePushedViewController.m in Sources */,
 				D38962DA1F189A9E00372B5F /* LXInteractiveTransition.m in Sources */,
 				D32140691F20A33F001F6407 /* CircleSpreadPushedViewController.m in Sources */,
 				D322E8251F1754890022EE41 /* PresentedViewController.m in Sources */,
@@ -355,10 +403,12 @@
 				D352B95C1F1C980A00D3BBDD /* LXModalAninationTransition.m in Sources */,
 				D385F7581F1E1A15000D5EF9 /* PushViewController.m in Sources */,
 				D322E8111F1754530022EE41 /* AppDelegate.m in Sources */,
+				EE62D91821003372009630DC /* ViewTransicitonController.m in Sources */,
 				D38962D41F1894EA00372B5F /* PresentOneViewController.m in Sources */,
 				D32140661F20A326001F6407 /* CircleSpreadViewController.m in Sources */,
 				D322E80E1F1754530022EE41 /* main.m in Sources */,
 				D3FA78031F1F0BF1002B25B0 /* MagicPushedViewController.m in Sources */,
+				EE62D92721006DCB009630DC /* LXSimplePushAnimateTransition.m in Sources */,
 				D3FA78071F1F0CC2002B25B0 /* MagicCollectionViewCell.m in Sources */,
 				D321406C1F20A379001F6407 /* CircleSpreadAnimationTransition.m in Sources */,
 				D385F75B1F1E271C000D5EF9 /* LXNavigationAnimationTransition.m in Sources */,
@@ -481,7 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W222R58V26;
+				DEVELOPMENT_TEAM = 4825PPV66L;
 				INFOPLIST_FILE = TransationVC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -494,7 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W222R58V26;
+				DEVELOPMENT_TEAM = 4825PPV66L;
 				INFOPLIST_FILE = TransationVC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

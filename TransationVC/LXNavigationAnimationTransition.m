@@ -82,6 +82,15 @@
             fromVC.view.hidden = NO;
         }
     }];
+    
+//    [UIView transitionFromView:fromVC.view toView:toVC.view duration:0.2 options:(UIViewAnimationOptionTransitionFlipFromRight) completion:^(BOOL finished) {
+//        [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+//        if ([transitionContext transitionWasCancelled]) {
+//            [fromTempView removeFromSuperview];
+//            fromVC.view.hidden = NO;
+//        }
+//    }];
+    
 }
 
 
@@ -90,13 +99,11 @@
     UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     UIView *containerView = [transitionContext containerView];
     UIView *tempView = containerView.subviews.lastObject;
-//    NSLog(@"popTempView:%@",tempView);
     [containerView addSubview:toVC.view];
-
+//使用xua
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
         tempView.layer.transform = CATransform3DIdentity;
-//        fromVC.view.subviews.lastObject.alpha = 1.0;
-//        tempView.subviews.lastObject.alpha = 0.0;
+
     } completion:^(BOOL finished) {
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
         if (![transitionContext transitionWasCancelled]) {
@@ -106,7 +113,13 @@
     }];
 
 
-
+//    [UIView transitionFromView:fromVC.view toView:toVC.view duration:0.2 options:(UIViewAnimationOptionTransitionFlipFromRight) completion:^(BOOL finished) {
+//        [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+//        if ([transitionContext transitionWasCancelled]) {
+//            [tempView removeFromSuperview];
+//            toVC.view.hidden = NO;
+//        }
+//    }];
 }
 
 

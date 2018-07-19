@@ -33,6 +33,11 @@
     self.navigationItem.leftBarButtonItem = leftItem;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"======view will appear");
+}
+
 
 - (void)pushClick {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
